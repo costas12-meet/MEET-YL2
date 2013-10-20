@@ -1,0 +1,15 @@
+{% extends 'movies/base.html' %}
+
+{% block headers %}
+	<!-- importing the movies_list.css stylesheet using the STATIC_URL tag -->
+	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/movies.css">
+{% endblock %}
+
+{% block content %}
+
+{% if movie %}
+<ul>
+	{{movie}}
+</ul>
+{% endif %}
+{% endblock %}
