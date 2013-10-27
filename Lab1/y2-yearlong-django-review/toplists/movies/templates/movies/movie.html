@@ -9,13 +9,13 @@
 
 {% if movie %}
 <ul>
-	<li>
+	<li id="movie_title">
 	{{movie}}
 	</li><br>
 
 	{% for comment in comments %}
 
-	<li>{{comment.text}}</li>
+	<li id="comment">{{comment.text}}</li>
 
 	{% endfor %}
 </ul>
