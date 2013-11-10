@@ -1,0 +1,11 @@
+The app lets you take pictures, and using the accelerometer you can add effects. Then you can share the photos via e-mail to your contacts. Effects like a sword slash. Name: Slash n' Dash
+
+Camera, accelerometer, touchscreen, phone contacts.
+
+Buttons:
+	- Share button
+	- Take photograph button, or go to camera
+	- A button for each effect
+	- A button to apply effect
+
+The user will open the app, see instructions, ok them away. They will then take a picture, see possible effects, apply them and save and share.
