@@ -1,0 +1,12 @@
+a) http://127.0.0.1:8000/movies
+
+b)http://127.0.0.1:8000/movies/1/
+http://127.0.0.1:8000/movies/2/
+http://127.0.0.1:8000/movies/100/
+
+c)add_movie
+movie
+Error (404)
+
+3)d)i) I did this so that it returns the url/addcomment and urls.py runs the views.py add_comment() function.
+
